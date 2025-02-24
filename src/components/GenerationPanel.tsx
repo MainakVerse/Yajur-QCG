@@ -10,7 +10,7 @@ const dropdownOptions: Record<string, string[]> = {
   Gate: ["Hadamard", "CNOT", "Pauli-X", "Pauli-Y", "Pauli-Z", "Clifford", "T-Gate", "Toffoli", "Fredkin", "S-Phase", "T-Phase", "Rotation", "Controlled-U", "Controlled-Z","Swap"],
   Connectivity: ["Full", "Linear", "Circular", "Custom", "Heavy-Hex", "Star-Topology", "Chain", "Bus", "Ring"],
   "Error Rate": ["Low", "Medium", "High", "Qubit Crosstalk"],
-  Optimization: ["Gate Cancellation", "Gate Merging", "Qubit Mapping & Routing","Depth Reduction", "Template Matching", "Pauli Frame Optimization", "Clifford Circuit Optimization", "Variational Compilation",""],
+  Optimization: ["Gate Cancellation", "Gate Merging", "Qubit Mapping & Routing","Depth Reduction", "Template Matching", "Pauli Frame Optimization", "Clifford Circuit Optimization", "Variational Compilation"],
   Measure: ["Single Qubit", "Multi-Qubit", "All", "Weak Measurement", "QND"],
   Entanglement: ["Bell State", "GHZ State", "W State", "Cluster State"],
   Width: ["Narrow", "Medium", "Wide"],
