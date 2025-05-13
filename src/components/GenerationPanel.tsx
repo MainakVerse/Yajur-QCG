@@ -52,7 +52,7 @@ const GenerationPanel: React.FC = () => {
 
     try {
       const genAI = new GoogleGenerativeAI(apiKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-latest" });
+      const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
       const response = await model.generateContent(prompt);
 
       const generatedText = response.response.text()?.trim() || "Error generating code.";
